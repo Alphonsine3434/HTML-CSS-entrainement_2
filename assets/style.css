@@ -1,0 +1,291 @@
+/*common style*/
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+h3{
+    
+}
+p{
+    font-size: 1.2rem;
+    color: #ababab;
+}
+.link0{
+    text-decoration: none;
+    color: white;
+    background-color: turquoise;
+    border-radius: 20px;
+    padding: 10px 30px;
+    display: inline-block;
+    margin: 30px 0;
+}
+/*end of common style*/
+
+/*header*/
+header{
+    background-color:  rgb(2, 2, 29) ;
+    border-bottom: solid 0.2px white;
+}
+.header-content{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.link-left .link1{
+    color: #fff;
+    text-decoration: none;
+}
+.link-left .one{
+    margin-right: 20px;
+} 
+.link-right{
+    color: blue;
+}
+.header-content img{
+    width: 25%;
+}
+/*end of header*/
+/*section*/
+.section{
+    background-color: rgb(2, 2, 29);
+}
+.section-content{
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+    
+}
+.section-content .part1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.section-content .part2 img{
+    width: 100%;
+}
+.section-content .part1 h1{
+    color: #fff;
+}
+.section-content .part1 h2{
+    margin: 20px 0;
+    color: blue;
+}
+.section-content .part1 p{
+    text-align: center;
+}
+/*end of section*/
+
+/*section1*/
+.section1{
+    background-color: #f9f9f9;
+}
+.section1-content{
+    width: 60%;
+    margin: auto;
+    padding: 50px;
+}
+.socialIcone{
+    display: flex;
+    justify-content: space-evenly;
+}
+.title h6{
+    text-align: center;
+    margin-top: 40px;
+    color: blue;
+}
+/*end of section1*/
+
+/*section2*/
+.section2{
+    background-color: #fff;
+}
+.section2-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.section2 p{
+    text-align: center;
+}
+.section2 h3{
+    margin: 40px 0;
+}
+/*end of section2 */
+
+/*section 3*/
+.section3{
+    background-image: url('./img/map_bg.png');
+}
+.section3-content{
+    width: 60%;
+}
+/*end of section3*/
+/*section4*/
+.section4{
+    height: 50vh;
+    background-color: #322f36;
+}
+.section4-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 80%;
+    padding: 20px auto;
+    margin: auto;
+}
+.section4-content div{
+    width: 15%;
+    height: 20vh;
+    border-radius: 100%;
+    background-color: #fff;
+    margin: auto;
+}
+.section4-content h6{
+    margin-top: 20px;
+    color: blue;
+}
+.section4-content p{
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*end of section4*/
+/*section5*/
+.section5{
+    background-color: #f5f0f0;
+
+    
+}
+.section5-content{
+    padding-bottom: 50px;
+    width: 60%;
+    margin: auto;
+}
+.section5-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.section5-image .image{
+   
+}
+.section5-image figure figcaption{
+    padding: 20px 0;
+}
+.section5-content h3{
+    padding: 50px 0;
+}
+/*end of section5*/
+
+/*section6*/
+.section6{
+    background-color: #fff;
+}
+.section6-content{
+    margin: auto;
+    width: 60%;
+    padding: 50px;
+}
+.part1{
+    display: flex;
+}
+.part1-left{
+    width: 50%;
+}
+.part1-left img{
+    
+}
+.part1-right{
+    width: 50%;
+}
+.part1-right h3{
+    margin: 20px 0 50px 0;
+}
+.part2{
+    display: flex;
+}
+.part2-left{
+    width: 50%;
+}
+.part2-right{
+    width: 50%;
+}
+.part2-left h3{
+    margin: 50px 0;
+}
+.part2-right img{
+    height: 500px;
+    margin: 30px 0 0 10px;
+}
+/*end of section6*/
+
+/*section7*/
+.section7{
+    width: 100%;
+    background-color: #f9f9f9;
+
+}
+.section7-content{
+    width: 80%;
+    display: flex;
+    padding: 30px 0;
+    margin-left: auto;
+}
+.section7-content h4{
+    margin-top: 20px;
+}
+
+.sayna{
+    width: 40%;
+    margin-right: 50px;
+}
+.sayna img{
+    width: 90%;
+    height: 50px;
+}
+.sayna p{
+    margin-top: 10px; 
+}
+.info{
+    width: 10%;
+    margin-right: 50px;
+}
+.info p{
+    margin-top: 20px;
+}
+.contact{
+    width: 40%;
+}
+.contact p{
+    margin-top: 20px;
+}
+/*end of section7*/
+/*footer*/
+footer{
+    
+}
+.footer-content{
+    width: 60%;
+    height: min-content;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.icone{
+    margin-left: 10px;
+}
+/*end of footer*/
